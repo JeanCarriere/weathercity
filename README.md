@@ -1,7 +1,9 @@
 
-## Code organization
+## Question
+Modify the web page so that a user will be able to enter a city name.
+Giving this name, the application will display its current weather.
+The app will consume the openweather REST api to get this result (http://openweathermap.org/api).
 
-This app sources are located in the app directory, and test sources are in the test directory.
 
 ## Building / running
 
@@ -27,11 +29,4 @@ It will:
  - run a server to serve your web app static assets on port 9000, with a reverse proxy to your backend server on port
   8000, a file watching mechanism to rebuild your sass assets, and live reload support so that your browser is
   refreshed whenever you make changes to your sources
-
-
-## Question
-Modify the web page so that a user will be able to enter a city name.
-Giving this name, the application will display its current weather.
-The app will consume the openweather REST api to get this result (http://openweathermap.org/api).
-
 
