@@ -1,19 +1,3 @@
-Angular - Bootstrap - Bower - Grunt seed
-
-Initial commit generated with yo generator-angular 0.7.1, with all default answers.
-
-Reviewed to be used more easily with a REST server, especially a [RESTX](http://restx.io/) one.
-
-All changes made to this generator can be checked by looking at git history since initial commit.
-
-## How to use
-
-You can bootstrap your project with this seed in one of the following way:
-
-* clone this repo (optionally fork it before), rename your app in package.json file, setup your backend REST server and
-  configure its host and port in bower.json, and start hacking
-* use restx to bootstrap your app, server and ui, and select `angular-bootstrap-grunt-bower` ui seed, and everything
-  will be ready.
 
 ## Code organization
 
@@ -40,15 +24,14 @@ To run the app:
 
 It will:
 
- - build your sass assets,
  - run a server to serve your web app static assets on port 9000, with a reverse proxy to your backend server on port
   8000, a file watching mechanism to rebuild your sass assets, and live reload support so that your browser is
   refreshed whenever you make changes to your sources
 
-### Testing
 
-Run `grunt test` to run karma tests.
+## Question
+Modify the web page so that a user will be able to enter a city name.
+Giving this name, the application will display its current weather.
+The app will consume the openweather REST api to get this result (http://openweathermap.org/api).
 
-### Building
 
-Run `grunt build` to prepare your web assets in the `dist` directory.

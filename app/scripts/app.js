@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularBootstrapGruntBowerApp', [
+angular.module('twittertest', [
   'ngCookies',
   'ngResource',
   'ngSanitize',

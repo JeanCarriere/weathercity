@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularBootstrapGruntBowerApp')
+angular.module('twittertest')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
